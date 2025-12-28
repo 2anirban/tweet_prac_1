@@ -1,0 +1,49 @@
+# FastAPI and Server
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy==2.0.25
+alembic==1.13.1
+
+# Admin Panel
+sqladmin==0.16.1
+itsdangerous==2.1.2
+
+# For SQLite (default)
+# No additional package needed
+
+# For PostgreSQL (optional, uncomment if using PostgreSQL)
+# psycopg2-binary==2.9.9
+
+# For MySQL (optional, uncomment if using MySQL)
+# pymysql==1.1.0
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# Data Validation
+pydantic==2.5.3
+pydantic-settings==2.1.0
+email-validator==2.1.0
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# AI & LangChain
+openai==1.10.0
+langchain==0.1.5
+langchain-openai==0.0.5
+langchain-core==0.1.10
+
+# HTTP Requests (for LangChain)
+httpx==0.26.0
+requests==2.31.0
+
+# Async Support
+anyio==4.2.0
+
+# Utilities
+python-dateutil==2.8.2
