@@ -5,6 +5,8 @@
 # - [ ] Implement `get_db()` dependency for FastAPI
 
 # ---
+
+#this is Backend/database.py file
 from sqlalchemy import create_engine
 #Create a connection to the database
 from sqlalchemy.ext.declarative import declarative_base
